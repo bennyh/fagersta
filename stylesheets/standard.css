@@ -1,0 +1,340 @@
+body {
+  background-color:#445;	
+  font-family:Helvetica, Arial, sans-serif;
+}
+
+#page {
+  background-color:#ccd;
+  width:760px;
+  padding:0px;
+  margin:auto;
+}
+
+/* Fonts, buttons, links */
+h1 {
+  font-size:1.6em;	
+  margin: 0px 0px 20px 0px;
+  padding: 0px;  
+}
+
+h2 {
+  font-size:1.2em;	
+  font-style:italic;
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  font-size:1em;	
+}
+
+button {
+  border:solid #000 1px;
+  background-color:#99c;
+  color:#000;
+  font-weight:bold;
+  font-family:Helvetica;
+  font-size:1.1em;
+  padding:4px 6px 4px 6px;
+  margin:4px;
+}
+
+button:hover{
+  color:#eef;
+}
+
+button:active{
+  color:#eef;
+  border: solid #99c 1px;
+  outline:2px;
+}
+a:link, a:visited {
+  color:#000;
+}
+
+a:hover, a:active{
+  color:#eef;	
+}
+
+/* Header */
+#header {
+  background-color:#335;
+  color:#eef;
+  padding:10px;
+}
+
+#header h1{
+  clear:both;
+  font-size:2em;
+  text-align:center;
+  padding:6px;
+}
+
+#header ul{
+  list-style-type:none;	
+  margin:0;
+  padding:0;
+  font-weight:bold;
+  font-size:18px;
+}
+
+#header li{
+  background-color:#88b;
+  display:inline;
+  padding:4px;
+  margin:2px;
+}
+
+#header li a:link, #header li a:visited {
+  text-decoration:none;
+}
+
+/* Login links */
+.login {
+  float:right;
+  padding:0;
+  margin:0px 4px 0px 4px;
+}
+
+.login p{
+  float:right;
+  padding:0;
+  margin:0;
+}
+
+.login a:link {
+  color:#eef;
+}
+
+.login a:visited {
+  color:#eef;	  
+}
+
+.login a:hover {
+  color:#000;	  
+}
+
+/* Error message */
+.errormessage {
+  background-color:#d88;
+  color:#000;
+  border: dotted #b66 2px;
+  padding:10px;
+  font-weight:bold;
+  font-size: 1.2em;
+}
+
+/* Main content */
+.content {
+  background-color:#ccd;
+  padding:10px;
+}
+
+.contentr {
+  background-color:#ccd;
+  padding:10px;
+  margin-right:270px;
+}
+
+.comments p {
+  margin:6px;	
+}
+
+.blogpost, .comment, .forumpost {
+  margin: 10px 0px 10px 0px;
+}
+
+.postheader, .postfooter , .commentheader, .commentfooter {
+  background-color:#99c;
+  margin:0;
+  padding:1px;
+  min-height:20px;
+}
+
+.postheader h3, .postfooter p, .commentheader h3, .commentfooter p, .postcontent p, .commentcontent p{
+  margin:6px;
+  padding:0;
+}
+
+.postcontent, .commentcontent {
+  background-color:#eef;	
+  padding:6px;
+  margin:0;
+  min-height:20px;
+}
+
+.newcomment, .newpost, .editpost, #loginform{
+  padding:6px;
+}
+.newcomment p, .newpost p, .editpost p, #loginform p{
+  margin:6px;
+}
+
+.modifylink {	
+  float:right;	
+  margin-left:6px;
+}
+
+#forumtable{
+  border-collapse:collapse;
+  width:100%;
+}
+
+#forumtable th{
+  background-color:#99c;
+  text-align:left;
+  padding:6px;
+  margin-bottom:2px;
+}
+
+#forumtable td{
+  background-color:#eef;
+  padding:6px;
+  border-top:2px solid #ccd;
+}
+
+#forumtable .col1{
+  width:40%;	
+}
+
+#forumtable a:hover, #forumtable a:active{
+  color:#555;
+}
+
+.forumpostcontent{
+  background-color:#eef;	
+  padding:0;
+  margin:0;
+  width:100%;  
+}
+
+.forumpostcontent p{
+  margin:0;
+  padding:2px;
+}
+
+.forumpostcontent th{
+  margin:0;
+  padding:2px;
+  width: 100px;
+  font-weight:normal;
+  background-color:#ccd;
+  vertical-align:top;
+}
+
+.forumpostcontent th a{
+  font-weight:bold;
+}
+
+.forumpostcontent td{
+  padding:6px;
+  width:82%;
+  vertical-align:top;
+}
+
+.newpostlink {
+  border:solid #000 1px;
+  background-color:#99c;
+  color:#000;
+  font-weight:bold;
+  font-size:1.1em;
+  padding:4px 6px 4px 6px;
+  text-decoration:none;  
+}
+
+.newpostlink:hover{
+  color:#eef;
+}
+
+.newpostlink:active{
+  color:#eef;
+  border: solid #99c 1px;
+  outline:2px;
+}
+
+/* Sidebar */
+.rightcolr {
+  background-color:#99c;
+  color:#eef;
+  padding:10px;
+  width:250px;
+  float:right;
+  margin-bottom:10px;
+}
+
+.sidemenu h3{
+  color:#000;
+}
+
+.sidemenu ul{
+  list-style-type:none;	
+  margin:0;
+  padding:0;
+}
+
+.sidemenu li{
+  padding:0px 6px 10px 6px;
+}
+
+.sidemenu li p{
+  margin:0;
+  padding:0;
+}
+	
+/* Footer */
+#footer {
+  font-size:0.9em;	
+  clear:both;	
+  background-color:#335;
+  padding:10px;   
+  color:#eef;
+}
+
+#footer a {
+ margin:0;
+ padding:0px 4px 0px 4px;
+}
+
+#footer p {
+ margin:0;
+ padding:0;
+}
+
+#footer a:link, #footer a:visited{
+  color:#eef;
+  float:right;
+}
+
+#footer a:hover, #footer a:active {
+  color:#000;
+  float:right;
+}
+
+/* Profile pages */
+#adminuserprofiletable, #userprofiletable {
+  margin:6px;
+  text-align:center;
+}
+
+#adminuserprofiletable th, #userprofiletable th, #adminuserprofiletable td, #userprofiletable td {
+  background-color:#99c;
+  padding:6px;
+}
+
+#adminuserprofiletable a:link, #adminuserprofiletable a:visited {
+  color:#000;
+}
+
+#adminuserprofiletable a:hover, #adminuserprofiletable a:active{
+  color:#eef;	
+}
+
+.source td{
+  border:solid 1px #000;
+  background-color:#eef;
+}
+
+#erimage  {
+  width:100%;
+  border:solid 1px #000;
+}

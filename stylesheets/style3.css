@@ -1,0 +1,332 @@
+body {
+  background-color:#fff;	
+  font-family:"Comic Sans MS", Arial, sans-serif;
+}
+
+#page {
+  background-color:#fff;
+  width:760px;
+  padding:0px;
+  margin:auto;
+}
+
+a:link {
+  color:#008;
+}
+
+a:visited {
+  color:#808;	
+}
+
+a:hover, a:active{
+  color:#999;	
+}
+
+#header {
+  text-align:center;  
+  margin-bottom:10px;
+}
+
+#header h1{
+  background-color:#fdd;
+  clear:both;
+  font-size:1.8em;
+  text-align:center;
+  padding:6px;
+  margin:0;
+}
+
+#header ul{
+  background-color:#fdd;		
+  list-style-type:none;	
+  margin:0;
+  padding:6px;
+  font-weight:bold;
+  font-size:1em;
+}
+
+#header li{
+  display:inline;
+  padding:4px;
+  margin:2px;
+}
+
+#header li a:link, #header li a:visited {
+  text-decoration:none;
+  color:#000;
+}
+
+#header li a:hover, #header li a:active {
+  text-decoration:none;
+  color:#999;
+}
+
+/* Login links */
+.login {
+  float:left;
+  padding:4px;
+  margin:0px 4px 0px 4px;
+}
+
+.login p{
+  padding:0;
+  margin:0;
+}
+
+
+h1 {
+  font-size:1.6em;	
+  margin: 0px 0px 20px 0px;
+  padding: 0px;  
+}
+
+h2 {
+  font-size:1.2em;	
+  font-style:italic;
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  font-size:1em;	
+}
+
+.errormessage {
+  background-color:#d88;
+  color:#000;
+  border: dotted #b66 2px;
+  padding:10px;
+  font-weight:bold;
+  font-size: 1.2em;
+}
+ 
+.content {
+  padding:10px;
+  margin:10px 0px 10px 0px;
+  background-color:#ddf;  
+}
+
+.contentr {
+  padding:10px;
+  margin:10px 240px 10px 0px;
+  background-color:#ddf;
+}
+
+.comments p {
+  margin:6px;	
+}
+
+.blogpost, .comment, .forumpost {
+  margin:20px;
+  background-color:#fff;
+  border:solid 1px #777;
+}
+
+.postheader, .postfooter , .commentheader, .commentfooter {
+  margin:0;
+  padding:1px;
+  color:#777;
+  min-height:20px;  
+}
+
+.commentheader {
+  color:#000;
+  border-bottom:dashed 1px #777;	  
+}
+
+.postheader h3, .postfooter p, .commentheader h3, .commentfooter p, .postcontent p, .commentcontent p{
+  margin:6px;
+  padding:0;
+
+}
+
+.postheader {
+  border-bottom:dashed 1px #777;	
+}
+
+.postcontent, .commentcontent {
+  padding:6px;
+  margin:0;
+  border-bottom:dashed 1px #777;
+  min-height:20px;  
+}
+
+.newcomment, .newpost, .editpost, #loginform{
+  padding:6px;
+}
+
+.newcomment p, .newpost p, .editpost p, #loginform p {
+  margin:6px;
+}
+
+.modifylink {	
+  float:right;	
+  margin-left:6px;
+}
+
+
+#forumtable{
+  border-collapse:collapse;
+  width:100%;
+}
+
+#forumtable th{
+  background-color:#fdd;
+  text-align:left;
+  padding:6px;
+  margin-bottom:2px;
+}
+
+#forumtable td{
+  background-color:#fff;
+  padding:6px;
+  border-top:dashed 1px #777;
+}
+
+#forumtable .col1{
+  width:40%;	
+}
+
+#forumtable a:hover, #forumtable a:active{
+  color:#555;
+}
+
+.forumpostcontent{
+  background-color:#fff;	
+  padding:0;
+  margin:0;
+  width:100%; 
+  border-bottom:dashed 1px #777;
+}
+
+.forumpostcontent p{
+  margin:0;
+  padding:2px;
+}
+
+.forumpostcontent th{
+  margin:0;
+  padding:2px;
+  width: 100px;
+  font-weight:normal;
+  background-color:#fdd;
+  vertical-align:top;
+}
+
+.forumpostcontent th a{
+  font-weight:bold;
+  font-size:larger;
+}
+
+.forumpostcontent td{
+  padding:6px;
+  width:82%;
+  vertical-align:top;
+}
+
+.newpostlink {
+  border:solid #000 1px;
+  background-color:#fdd;
+  color:#000;
+  font-weight:bold;
+  font-size:1.1em;
+  padding:4px 6px 4px 6px;
+  text-decoration:none;  
+}
+
+.newpostlink:visited{
+  color:#000;
+}
+
+.newpostlink:hover{
+  color:#fff;
+}
+
+.newpostlink:active{
+  color:#fff;
+  outline:2px;
+}
+
+
+.rightcolr {
+  padding:0;
+  margin:0;
+  width:230px;
+  float:right;
+}
+
+.sidemenu {
+  background-color:#fec;
+  padding:10px; 
+  margin:0 0 10px 0;
+}
+
+.sidemenu h3{
+  color:#000;
+}
+
+.sidemenu ul{
+  list-style-type:none;	
+  margin:0;
+  padding:0;
+}
+
+.sidemenu li{
+  padding:0px 6px 10px 6px;
+}
+
+.sidemenu li p{
+  margin:0;
+  padding:0;
+}
+	
+#footer {
+  font-size:0.9em;	
+  clear:both;	
+  background-color:#fdd;
+  padding:10px;
+}
+
+#footer a {
+ margin:0;
+ padding:0px 4px 0px 4px;
+}
+
+#footer p {
+ margin:0;
+ padding:0;
+}
+
+#footer a {
+  float:right;
+}
+
+
+#adminuserprofiletable, #userprofiletable {
+  margin:6px;
+  text-align:center;
+  border-collapse:collapse;
+}
+
+#adminuserprofiletable th, #userprofiletable th, #adminuserprofiletable td, #userprofiletable td {
+  border:solid 1px #000;
+  padding:6px;
+}
+
+#adminuserprofiletable a:link, #adminuserprofiletable a:visited {
+  color:#000;
+}
+
+#adminuserprofiletable a:hover, #adminuserprofiletable a:active{
+  color:#eef;	
+}
+
+.source td{
+  border:solid 1px #000;
+  background-color:#fff;
+}
+
+#erimage  {
+  width:100%;
+  border:solid 1px #000;
+}
